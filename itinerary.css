@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.image-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.itinerary {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation,
+.description,
+.address,
+.activity {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}

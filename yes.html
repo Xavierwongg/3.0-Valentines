@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=yes_styles.css>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Yippie!!! </h1>
+        </div>
+        <div class="gif_container">
+            <img src="cute_Cat2.gif" alt="Cute animated illustration">
+        </div>
+        <p class="text"> See you soon for a surprise!</p>
+        <button class="btn" id="itineraryButton" onclick="lastPage()">Itinerary</button>
+        <script>
+                function lastPage() {
+                    window.location.href = "itinerary.html";
+                }
+        </script>
+    </div>
+</body>
+</html>
